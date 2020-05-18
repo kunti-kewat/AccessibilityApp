@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oex-kZ-8Rk">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Accessibility Option-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AccessibilityMainViewController" customModule="AccessibilityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="R6q-iB-TDP">
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="M3a-jL-JqT"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="woZ-Hf-AlI"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="R6q-iB-TDP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6Jp-ze-dun"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="R6q-iB-TDP" secondAttribute="bottom" id="Daw-iz-bqq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R6q-iB-TDP" secondAttribute="trailing" id="PY8-ei-RhU"/>
+                            <constraint firstItem="R6q-iB-TDP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QfA-fi-KMX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Accessibility Option" id="Iul-PK-fq3"/>
+                    <connections>
+                        <outlet property="accessibilityListview" destination="R6q-iB-TDP" id="Sh6-QN-hqP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="100.2717391304348"/>
+        </scene>
+        <!--Dynamic Type View Controller-->
+        <scene sceneID="yFG-rQ-s0C">
+            <objects>
+                <viewController storyboardIdentifier="dynamicTypeVC" id="Xvd-fr-9wx" customClass="DynamicTypeViewController" customModule="AccessibilityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aLI-7z-h6q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P5M-SN-XyY">
+                                <rect key="frame" x="20" y="50" width="374" height="636"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">The Dynamic Type feature allows users to choose the size of textual content displayed on the screen. It helps users who need larger text for better readability. It also accomodates those who can read smaller text, allowing more information to appear on the screen. Apps that support Dynamic Type also provide a more consistent reading experience.
+To add support for Dynamic Type in your app, you use text styles. A text style describes the use of the text, such as headline or body or title1, and lets the system know how best to adjust its size. You can configure text styles in either Interface Builder or your source code.
+Although custom fonts are supported in Dynamic Type, the preferred font is designed to look good at any size (for more information, see Typography). Also, using the preferred font ensures consistency within the system and with other apps.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="P5M-SN-XyY" firstAttribute="leading" secondItem="FkV-Tp-4PU" secondAttribute="leading" constant="20" id="7vh-oR-in6"/>
+                            <constraint firstItem="FkV-Tp-4PU" firstAttribute="trailing" secondItem="P5M-SN-XyY" secondAttribute="trailing" constant="20" id="TwM-d8-AcP"/>
+                            <constraint firstItem="P5M-SN-XyY" firstAttribute="top" secondItem="FkV-Tp-4PU" secondAttribute="top" constant="50" id="faf-Qf-eRu"/>
+                            <constraint firstItem="FkV-Tp-4PU" firstAttribute="bottom" secondItem="P5M-SN-XyY" secondAttribute="bottom" constant="50" id="waf-cU-cQI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FkV-Tp-4PU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VCU-9f-jqZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1667" y="102"/>
+        </scene>
+        <!--Reduce Transparency View Controller-->
+        <scene sceneID="8WC-OS-ffN">
+            <objects>
+                <viewController storyboardIdentifier="reduceTransparencyVC" id="S2A-1B-ABd" customClass="ReduceTransparencyViewController" customModule="AccessibilityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Te2-9Y-dqS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lUW-Ac-Ivc">
+                                <rect key="frame" x="87" y="304" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="hIZ-BV-eck"/>
+                                    <constraint firstAttribute="width" constant="240" id="mUO-Eu-AwC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lUW-Ac-Ivc" firstAttribute="centerX" secondItem="Te2-9Y-dqS" secondAttribute="centerX" id="4KE-oB-EpO"/>
+                            <constraint firstItem="lUW-Ac-Ivc" firstAttribute="centerY" secondItem="Te2-9Y-dqS" secondAttribute="centerY" id="tV2-Rt-CI5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Qgo-FY-JaC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BaH-pw-xcW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2278" y="105"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="csV-B6-Gep">
+            <objects>
+                <viewController id="b2a-Ot-SsE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Igo-cP-yRh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="f4B-E8-y4e"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xqH-Z4-LOW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2899" y="107"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2JB-fX-POx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oex-kZ-8Rk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="niN-su-eTS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="qet-CO-do1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S7P-nE-aaT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="100.2717391304348"/>
+        </scene>
+    </scenes>
+</document>

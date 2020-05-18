@@ -15,6 +15,29 @@
 		18EEDBB0246FCFF900DC402C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EEDBAE246FCFF900DC402C /* LaunchScreen.storyboard */; };
 		18EEDBBB246FCFF900DC402C /* AccessibilityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBBA246FCFF900DC402C /* AccessibilityAppTests.swift */; };
 		18EEDBC6246FCFF900DC402C /* AccessibilityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBC5246FCFF900DC402C /* AccessibilityAppUITests.swift */; };
+		18EEDBDA246FD37B00DC402C /* AccessibilityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBD8246FD37B00DC402C /* AccessibilityTableViewCell.swift */; };
+		18EEDBDB246FD37B00DC402C /* AccessibilityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EEDBD9246FD37B00DC402C /* AccessibilityTableViewCell.xib */; };
+		18EEDBDD246FD4CE00DC402C /* AccessibilityOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBDC246FD4CE00DC402C /* AccessibilityOptions.swift */; };
+		18EEDBDF246FD50E00DC402C /* AccessibilityOptionsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBDE246FD50E00DC402C /* AccessibilityOptionsVM.swift */; };
+		18EEDBE1246FD61000DC402C /* AccessibilityMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBE0246FD61000DC402C /* AccessibilityMainViewController.swift */; };
+		18EEDBE4246FDA4000DC402C /* AccessibilityWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBE3246FDA4000DC402C /* AccessibilityWireFrame.swift */; };
+		18EEDBE7246FDCC300DC402C /* SmartInvert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EEDBE6246FDCC300DC402C /* SmartInvert.storyboard */; };
+		18EEDBE9246FDD1400DC402C /* SmartInvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBE8246FDD1400DC402C /* SmartInvertViewController.swift */; };
+		18EEDBEC246FF72600DC402C /* Language.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EEDBEB246FF72600DC402C /* Language.storyboard */; };
+		18EEDBF0246FF77500DC402C /* CheckoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBEE246FF77500DC402C /* CheckoutTableViewCell.swift */; };
+		18EEDBF1246FF77500DC402C /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBEF246FF77500DC402C /* DetailTableViewCell.swift */; };
+		18EEDBF3246FF78E00DC402C /* AccessibilityLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBF2246FF78E00DC402C /* AccessibilityLanguageViewController.swift */; };
+		18EEDBF6246FF83C00DC402C /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBF4246FF83B00DC402C /* GroupViewController.swift */; };
+		18EEDBF7246FF83C00DC402C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBF5246FF83B00DC402C /* DetailsViewController.swift */; };
+		18EEDBFE246FFB5200DC402C /* GrandHotel-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18EEDBFD246FFB5200DC402C /* GrandHotel-Regular.otf */; };
+		18EEDC00246FFDC600DC402C /* DynamicTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDBFF246FFDC600DC402C /* DynamicTypeViewController.swift */; };
+		18EEDC022470082100DC402C /* CustomAction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EEDC012470082100DC402C /* CustomAction.storyboard */; };
+		18EEDC042470087E00DC402C /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDC032470087E00DC402C /* DataSource.swift */; };
+		18EEDC07247008BC00DC402C /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDC06247008BC00DC402C /* Knob.swift */; };
+		18EEDC0A247008FD00DC402C /* AddRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDC08247008FD00DC402C /* AddRatingViewController.swift */; };
+		18EEDC0B247008FD00DC402C /* AmpDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDC09247008FD00DC402C /* AmpDetailsViewController.swift */; };
+		18EEDC4A24729C7E00DC402C /* OnOffLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDC4924729C7E00DC402C /* OnOffLabelViewController.swift */; };
+		18EEDC4C2472AEF400DC402C /* ReduceTransparencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEDC4B2472AEF400DC402C /* ReduceTransparencyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +72,29 @@
 		18EEDBC1246FCFF900DC402C /* AccessibilityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessibilityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EEDBC5246FCFF900DC402C /* AccessibilityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityAppUITests.swift; sourceTree = "<group>"; };
 		18EEDBC7246FCFF900DC402C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EEDBD8246FD37B00DC402C /* AccessibilityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTableViewCell.swift; sourceTree = "<group>"; };
+		18EEDBD9246FD37B00DC402C /* AccessibilityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessibilityTableViewCell.xib; sourceTree = "<group>"; };
+		18EEDBDC246FD4CE00DC402C /* AccessibilityOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityOptions.swift; sourceTree = "<group>"; };
+		18EEDBDE246FD50E00DC402C /* AccessibilityOptionsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityOptionsVM.swift; sourceTree = "<group>"; };
+		18EEDBE0246FD61000DC402C /* AccessibilityMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityMainViewController.swift; sourceTree = "<group>"; };
+		18EEDBE3246FDA4000DC402C /* AccessibilityWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityWireFrame.swift; sourceTree = "<group>"; };
+		18EEDBE6246FDCC300DC402C /* SmartInvert.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SmartInvert.storyboard; sourceTree = "<group>"; };
+		18EEDBE8246FDD1400DC402C /* SmartInvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartInvertViewController.swift; sourceTree = "<group>"; };
+		18EEDBEB246FF72600DC402C /* Language.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Language.storyboard; sourceTree = "<group>"; };
+		18EEDBEE246FF77500DC402C /* CheckoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutTableViewCell.swift; sourceTree = "<group>"; };
+		18EEDBEF246FF77500DC402C /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		18EEDBF2246FF78E00DC402C /* AccessibilityLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityLanguageViewController.swift; sourceTree = "<group>"; };
+		18EEDBF4246FF83B00DC402C /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		18EEDBF5246FF83B00DC402C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		18EEDBFD246FFB5200DC402C /* GrandHotel-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GrandHotel-Regular.otf"; sourceTree = "<group>"; };
+		18EEDBFF246FFDC600DC402C /* DynamicTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeViewController.swift; sourceTree = "<group>"; };
+		18EEDC012470082100DC402C /* CustomAction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomAction.storyboard; sourceTree = "<group>"; };
+		18EEDC032470087E00DC402C /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		18EEDC06247008BC00DC402C /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
+		18EEDC08247008FD00DC402C /* AddRatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRatingViewController.swift; sourceTree = "<group>"; };
+		18EEDC09247008FD00DC402C /* AmpDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmpDetailsViewController.swift; sourceTree = "<group>"; };
+		18EEDC4924729C7E00DC402C /* OnOffLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnOffLabelViewController.swift; sourceTree = "<group>"; };
+		18EEDC4B2472AEF400DC402C /* ReduceTransparencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceTransparencyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +145,17 @@
 		18EEDBA2246FCFF700DC402C /* AccessibilityApp */ = {
 			isa = PBXGroup;
 			children = (
+				18EEDC05247008A800DC402C /* Util */,
+				18EEDBFC246FFB2F00DC402C /* fonts */,
+				18EEDBE2246FD94B00DC402C /* WireFrame */,
+				18EEDBD7246FD2D200DC402C /* Resource */,
+				18EEDBD6246FD29100DC402C /* Xib */,
+				18EEDBD5246FD27A00DC402C /* ViewModel */,
+				18EEDBD4246FD27100DC402C /* Model */,
+				18EEDBD3246FD25B00DC402C /* Controller */,
 				18EEDBA3246FCFF700DC402C /* AppDelegate.swift */,
 				18EEDBA5246FCFF700DC402C /* SceneDelegate.swift */,
 				18EEDBA7246FCFF700DC402C /* ViewController.swift */,
-				18EEDBA9246FCFF700DC402C /* Main.storyboard */,
 				18EEDBAC246FCFF900DC402C /* Assets.xcassets */,
 				18EEDBAE246FCFF900DC402C /* LaunchScreen.storyboard */,
 				18EEDBB1246FCFF900DC402C /* Info.plist */,
@@ -126,6 +179,110 @@
 				18EEDBC7246FCFF900DC402C /* Info.plist */,
 			);
 			path = AccessibilityAppUITests;
+			sourceTree = "<group>";
+		};
+		18EEDBD3246FD25B00DC402C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EEDC0C24700A6700DC402C /* MainVC */,
+				18EEDC08247008FD00DC402C /* AddRatingViewController.swift */,
+				18EEDC09247008FD00DC402C /* AmpDetailsViewController.swift */,
+				18EEDBF5246FF83B00DC402C /* DetailsViewController.swift */,
+				18EEDBF4246FF83B00DC402C /* GroupViewController.swift */,
+				18EEDBE8246FDD1400DC402C /* SmartInvertViewController.swift */,
+				18EEDBF2246FF78E00DC402C /* AccessibilityLanguageViewController.swift */,
+				18EEDBFF246FFDC600DC402C /* DynamicTypeViewController.swift */,
+				18EEDC4924729C7E00DC402C /* OnOffLabelViewController.swift */,
+				18EEDC4B2472AEF400DC402C /* ReduceTransparencyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18EEDBD4246FD27100DC402C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18EEDC032470087E00DC402C /* DataSource.swift */,
+				18EEDBDC246FD4CE00DC402C /* AccessibilityOptions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EEDBD5246FD27A00DC402C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18EEDBDE246FD50E00DC402C /* AccessibilityOptionsVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18EEDBD6246FD29100DC402C /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				18EEDBED246FF76000DC402C /* TableCell */,
+				18EEDBD8246FD37B00DC402C /* AccessibilityTableViewCell.swift */,
+				18EEDBD9246FD37B00DC402C /* AccessibilityTableViewCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		18EEDBD7246FD2D200DC402C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18EEDBE5246FDC5300DC402C /* Storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		18EEDBE2246FD94B00DC402C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				18EEDBE3246FDA4000DC402C /* AccessibilityWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		18EEDBE5246FDC5300DC402C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				18EEDC012470082100DC402C /* CustomAction.storyboard */,
+				18EEDBA9246FCFF700DC402C /* Main.storyboard */,
+				18EEDBEB246FF72600DC402C /* Language.storyboard */,
+				18EEDBE6246FDCC300DC402C /* SmartInvert.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		18EEDBED246FF76000DC402C /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				18EEDBEE246FF77500DC402C /* CheckoutTableViewCell.swift */,
+				18EEDBEF246FF77500DC402C /* DetailTableViewCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		18EEDBFC246FFB2F00DC402C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18EEDBFD246FFB5200DC402C /* GrandHotel-Regular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		18EEDC05247008A800DC402C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				18EEDC06247008BC00DC402C /* Knob.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		18EEDC0C24700A6700DC402C /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				18EEDBE0246FD61000DC402C /* AccessibilityMainViewController.swift */,
+			);
+			path = MainVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +389,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EEDBEC246FF72600DC402C /* Language.storyboard in Resources */,
+				18EEDBFE246FFB5200DC402C /* GrandHotel-Regular.otf in Resources */,
 				18EEDBB0246FCFF900DC402C /* LaunchScreen.storyboard in Resources */,
 				18EEDBAD246FCFF900DC402C /* Assets.xcassets in Resources */,
+				18EEDBDB246FD37B00DC402C /* AccessibilityTableViewCell.xib in Resources */,
+				18EEDBE7246FDCC300DC402C /* SmartInvert.storyboard in Resources */,
 				18EEDBAB246FCFF700DC402C /* Main.storyboard in Resources */,
+				18EEDC022470082100DC402C /* CustomAction.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +421,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EEDBE1246FD61000DC402C /* AccessibilityMainViewController.swift in Sources */,
+				18EEDC0A247008FD00DC402C /* AddRatingViewController.swift in Sources */,
+				18EEDBE4246FDA4000DC402C /* AccessibilityWireFrame.swift in Sources */,
+				18EEDBDA246FD37B00DC402C /* AccessibilityTableViewCell.swift in Sources */,
+				18EEDC4A24729C7E00DC402C /* OnOffLabelViewController.swift in Sources */,
+				18EEDBF0246FF77500DC402C /* CheckoutTableViewCell.swift in Sources */,
+				18EEDBDD246FD4CE00DC402C /* AccessibilityOptions.swift in Sources */,
+				18EEDC00246FFDC600DC402C /* DynamicTypeViewController.swift in Sources */,
+				18EEDC042470087E00DC402C /* DataSource.swift in Sources */,
 				18EEDBA8246FCFF700DC402C /* ViewController.swift in Sources */,
 				18EEDBA4246FCFF700DC402C /* AppDelegate.swift in Sources */,
+				18EEDBF3246FF78E00DC402C /* AccessibilityLanguageViewController.swift in Sources */,
+				18EEDC4C2472AEF400DC402C /* ReduceTransparencyViewController.swift in Sources */,
+				18EEDBE9246FDD1400DC402C /* SmartInvertViewController.swift in Sources */,
+				18EEDC0B247008FD00DC402C /* AmpDetailsViewController.swift in Sources */,
+				18EEDBDF246FD50E00DC402C /* AccessibilityOptionsVM.swift in Sources */,
+				18EEDBF6246FF83C00DC402C /* GroupViewController.swift in Sources */,
+				18EEDC07247008BC00DC402C /* Knob.swift in Sources */,
+				18EEDBF7246FF83C00DC402C /* DetailsViewController.swift in Sources */,
 				18EEDBA6246FCFF700DC402C /* SceneDelegate.swift in Sources */,
+				18EEDBF1246FF77500DC402C /* DetailTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +623,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = minal.com.AccessibilityApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +640,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = minal.com.AccessibilityApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
